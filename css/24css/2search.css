@@ -27,11 +27,12 @@ html,body{
     border-radius: 4px;
     border: 1px solid #171515;
     transition: all .3s;
+    outline: none;
 }
 
 .search-bar:focus{
     width: 100%;
-    border-color: #d22f89;
+    border-color: #1db73f;
 }
 
 .search-bar::placeholder{
